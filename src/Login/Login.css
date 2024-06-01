@@ -1,0 +1,33 @@
+/* Center the login form */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the input boxes */
+#username-input,
+#password-input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the login button */
+#login-button {
+    width: 320px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the login button */
+#login-button:hover {
+    background-color: #0056b3;
+}
